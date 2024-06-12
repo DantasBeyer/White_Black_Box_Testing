@@ -20,7 +20,7 @@ function istPrimzahl($zahl)
 // Testfall 1: Überprüfung einer Zahl kleiner als 2 (Grenzfall)
 $testfall1 = 1;
 $ergebnis1 = istPrimzahl($testfall1);
-echo "Testfall 1 - Ist $testfall1 eine Primzahl? " . ($ergebnis1 ? "Ja" : "Nein") . "\n"; // Erwartetes Ergebnis: Nein
+echo "Testfall 1 - Ist $testfall1 eine Primzahl? " . ($ergebnis1 ? "Ja" : "Nein") . "\n";
 
 // Testfall 2: Überprüfung einer kleinen Primzahl
 $testfall2 = 3;
