@@ -14,7 +14,9 @@ function ist_gerade($zahl)
     }
 }
 
-// Wir werden 3 tests machen :
+// Wir werden 3 tests machen und dafür werden wir assert() Funktion anwenden.
+// Die assert() Function wird verwendet, um sicherzustellen, dass eine bestimmte Bedingung
+// wahr ist. Wenn die Bedingung falsch ist, wird eine Fehlermeldung angezeigt.
 
 //Test 1: Überprüfen, ob eine gerade Zahl true zurückgibt.
 assert(ist_gerade(4) === true); // Erwartet true
